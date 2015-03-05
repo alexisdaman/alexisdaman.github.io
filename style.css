@@ -1,0 +1,33 @@
+* {font-family:serif;}
+
+body {background-color: #FFFFF0;}
+
+.purple {font-color:purple;}
+
+
+h2 {font-size:24px;
+	color:green;
+	font-family:sans-serif;
+	font-weight:bold;
+	font-style:italic;
+	text-transform:none;
+	text-align:left;}
+
+p {line-height:24px;}
+
+.p1 {color:#3D0099;}
+
+#p2 {color:#4700B2;}
+
+#p3 {color:#5C00B8;}
+
+ul > li {font-family:sans-serif;}
+
+
+a:link {color:green;
+		text-decoration:none;
+		background-color:none;}
+		
+a:visited {color:teal;}
+
+a:hover {color:red;}

@@ -1,0 +1,37 @@
+* {font-family:sans-serif; font-family:Helvetica;}
+
+body {background-color:black;
+	color:white;
+	margin-left:20px;}
+	
+img {float:right; 
+	vertical-align:top;
+	height:600px;
+	width:600;}
+
+a:visited {color:#009999;}
+
+a:hover {background-color:white;}
+
+.small-font {font-size:12px;}
+
+.pink {color:#FF99CC;}
+
+.blue {color:#16ACD1;}
+
+.green {color:#5CE65C;}
+
+#poppy {color:#E06666;}
+
+#yellow {color:#FFCC00;}
+
+#other-green {color:#4DDBB8;}
+
+#navy {color:#4069BC;}
+
+a:link {text-decoration:none;}
+
+
+
+
+

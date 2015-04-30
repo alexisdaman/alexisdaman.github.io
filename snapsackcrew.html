@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>SnapSack Contact Form</title>
+		<meta name="keywords" content="SnapSack, Contact Us, Location, Map">
+		<meta name="author" content="SnapSack">
+		<meta name="description" content="Contact Form for SnapSack">
+		<link rel="stylesheet" href="grid.css">
+		<link rel="stylesheet" href="snapsack.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		
+		
+		<style>
+		
+		body {margin:100px;
+			background-color:#592C7F;
+			color:white;}
+		
+		h1 {text-align:center;
+			padding:20px;
+			color:white;}
+			
+		h3 {text-align:center;
+			padding:10px;
+			color:white;}	
+		
+		iframe {border:0px;}
+		
+		</style>
+		
+	</head>
+	
+	<body>
+		
+		<h1>Contact the SnapSack Crew</h1>
+		
+	    <h3>CALL<br> 1-800-SNPSACK</h3>
+		
+		<h3>VISIT<br> SnapSack Headquarters<br>
+			420 High Street<br></h3>
+			
+<form class="form-horizontal" role="form" method="post" action="index.php">
+    <div class="form-group">
+        <label for="name" class="col-md-3 control-label">Map</label>
+        <div class="col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d5648.643979907563!2d-123.0318004!3d44.93712190000001!3m2!1i1024!2i768!4f13.1!2m1!1swillamette+university+apartments!5e0!3m2!1sen!2sus!4v1430356874094" width="460" height="300" style="border:0"></iframe>
+        </div>
+    </div>
+	
+		<h3>EMAIL</h3>
+    <div class="form-group">
+        <label for="name" class="col-md-3 control-label">Name</label>
+        <div class="col-md-6">
+            <input type="text" class="form-control" id="name" name="name" placeholder="First &amp; Last Name" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="email" class="col-md-3 control-label">Email</label>
+        <div class="col-md-6">
+            <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="message" class="col-md-3 control-label">Message</label>
+        <div class="col-md-6">
+            <textarea class="form-control" rows="8" name="message"></textarea>
+        </div>
+    </div>
+   
+    <div class="form-group">
+        <div class="col-md-3 col-md-offset-3">
+            <input id="submit" name="submit" type="submit" value="Send" class="btn btn-blue">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-6 col-md-offset-6">
+            <!-- Will be used to display an alert to the user-->
+        </div>
+    </div>
+</form>
+</body>
+</html>
